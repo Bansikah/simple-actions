@@ -38,7 +38,7 @@ jobs:
     runs-on: ubuntu-latest
     #using if condition and the needs
     if: github.even_name == 'pull_request'
-    needs: build
+    #needs: build
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Runs a set of commands using the runners shell
